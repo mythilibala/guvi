@@ -1,2 +1,3 @@
-n=list(map(int,input().split(" ")))
-print(max(n))
+k=map(int,input().split(" "))
+k=list(k)
+print(max(k))
