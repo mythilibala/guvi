@@ -1,5 +1,5 @@
-n=int(input())
-m=list(map(int,input().split(" ")))
-m.sort()
-i=len(m)//2
-print(m[i])
+k=int(input())
+n=list(map(int,input().split(" ")))
+n.sort()
+i=len(n)//2
+print(n[i])
