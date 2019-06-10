@@ -8,6 +8,11 @@ l=[]
 for key,values in d.items():
     if(d[key]>1):
         l.append(key)
-l.sort()
-for i in l:
+        
+if l==[]:
+    print("unique") 
+else:       
+  l.sort()
+  for i in l:
     print(i,end=" ")    
+ 
